@@ -1,0 +1,1671 @@
+@media screen and (max-width: 1245px) {
+    .intro {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 1097px) {
+    .intro {
+        width: 52%;
+    }
+
+    .description-phone {
+        margin: 4rem 0 0 0;
+        width: 70%;
+    }
+
+    .description-projects {
+        padding: 1.1rem 1rem;
+        margin: 1rem 0 1rem;
+    }
+
+    .logo-fix {
+        left: 2rem;
+    }
+
+    .description-p h2 {
+        font-size: 2.5rem;
+    }
+
+    .description-p i {
+        font-size:
+            /*4rem*/
+            3rem;
+        margin: 2% 0;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .scrolld-header {
+        bottom: 15%;
+    }
+
+    .description-projects {
+        margin: -1rem 0 0 0;
+        padding: 1.1rem 1rem 1.1rem 1.2rem;
+    }
+
+    .description-phone {
+        margin: 5rem 0 0 0;
+    }
+
+    .intro {
+        width: 52%;
+    }
+
+    .collapse-section {
+        width: 28%;
+    }
+
+    .about-svg-arrow {
+        width: 21px;
+    }
+
+    .p-img-phone {
+        float: right;
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .languages {
+        padding-left: 0.3rem;
+        /*vertical-align: text-top;*/
+        font-size: 1rem;
+        line-height: 8px;
+        height: 8px;
+        display: inline;
+    }
+
+    .nav-logo {
+        width: 30px;
+        /* height: 32px; */
+        top: 9px;
+        line-height: 13px;
+        /*margin-left: -10px;*/
+        margin-left: -21px;
+    }
+
+    .nav-toggle {
+        height: 3.5rem;
+        width: 1.6rem;
+    }
+
+    .nav-toggle .nav-toggle-bar {
+        height: 0.29rem;
+    }
+
+    .nav-toggle:before {
+        top: 1.18rem;
+    }
+
+    .nav-toggle .nav-toggle-bar,
+    .nav-toggle .nav-toggle-bar::after,
+    .nav-toggle .nav-toggle-bar::before {
+        height: 0.29rem;
+    }
+
+
+
+    .links-header {
+        width: 60%;
+    }
+
+    .scrolld-header {
+        bottom: 8%;
+        height: 15%;
+    }
+
+    .scrolld-header svg {
+        position: relative;
+        top: 0rem;
+    }
+
+    .scroll-d {
+        display: block;
+    }
+
+    .p-bottom {
+        padding-bottom: 3.5rem;
+    }
+
+    .description-projects {
+        padding: 0;
+    }
+
+    .more a {
+        margin-right: 0;
+    }
+
+    .projects h2 {
+        margin-left: 0;
+    }
+
+    .projects h2 span {
+        left: -14px;
+    }
+
+    .line-projects {
+        margin: 2rem 0 4rem;
+    }
+
+    .description-phone {
+        width: 100%;
+        margin-top: 0rem;
+    }
+
+    .p-img-phone {
+        width: 58%;
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+
+    .bg-purple {
+        background-position: right;
+    }
+
+    .presentation h2 {
+        margin-left: 0px;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .photo {
+        margin-top: 0px;
+        padding-top: 2%;
+    }
+
+    .photo img {
+        width: 30%;
+    }
+
+    .intro {
+        padding-top: 1%;
+    }
+
+    .collapse-section {
+        float: none;
+        padding-left: 4%;
+        padding-top: 2%;
+    }
+
+    .can_do {
+        display: none;
+    }
+
+    .about {
+        padding: 0rem 0px 2.5rem;
+    }
+
+    .btn-about-cv {
+        display: block;
+        transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+        transition: 0.8s;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .services {
+        padding: 2.5rem 0 4.5rem;
+    }
+
+    .title-services {
+        top: 15px;
+        color: #060508;
+    }
+
+    .contact {
+        padding: 2rem 0px 2rem;
+    }
+
+    .section {
+        padding: 8% 2% 10% !important;
+    }
+
+    .section-contact-information {
+        padding: 16% 0 0 !important;
+    }
+
+    /*.bcodedemo-small{display: block;}*/
+    .p-img {
+        width: 100%
+    }
+
+    button.accordion span {
+        background-color: #58101e;
+        color: #fff;
+    }
+
+    .logo-fix {
+        left: 3.5rem;
+    }
+
+    .logo-fix .nav-logo {
+        width: 33px;
+    }
+
+    .tags-projects {
+        max-height: 100%;
+        height: auto;
+    }
+
+    .tags-projects .tag {
+        margin-right: 6px;
+        padding: 6px;
+    }
+
+    .hoverp .tags-projects .tag {
+        transform: translateX(0.2rem);
+    }
+
+    .description-p {
+        top: 1.30rem;
+        left: 1.20rem;
+    }
+
+    .hoverp .description-p {
+        transform: translateX(0.2rem);
+    }
+
+    /*codigo de css de projects en inicio*/
+    .card-col {
+        height: 80vh;
+        margin-bottom: 40px;
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+
+    .languages {
+        padding-left: 0.3rem;
+        /*vertical-align: text-top;*/
+        font-size: 1rem;
+        line-height: 8px;
+        height: 8px;
+        display: inline;
+    }
+
+    .nav-logo {
+        width: 30px;
+        /* height: 32px; */
+        top: 9px;
+        line-height: 13px;
+        /*margin-left: -10px;*/
+        margin-left: -21px;
+    }
+
+    .nav-toggle {
+        height: 3.5rem;
+        width: 1.6rem;
+    }
+
+    .nav-toggle .nav-toggle-bar {
+        height: 0.29rem;
+    }
+
+    .nav-toggle:before {
+        top: 1.18rem;
+    }
+
+    .nav-toggle .nav-toggle-bar,
+    .nav-toggle .nav-toggle-bar::after,
+    .nav-toggle .nav-toggle-bar::before {
+        height: 0.29rem;
+    }
+
+    .name-lettering {
+        width: 70%;
+    }
+
+    .links-header {
+        width: 70%;
+    }
+
+    .scrolld-header {
+        bottom: 8%;
+        height: 15%;
+    }
+
+    .scrolld-header svg {
+        position: relative;
+        top: 0rem;
+    }
+
+    .scroll-d {
+        display: block;
+    }
+
+    .projects {
+        padding: 4rem 0px 2rem;
+    }
+
+    /*.projects {padding: 0.5rem 0px 0rem;}*/
+    .projects h2 span {
+        left: -14px;
+    }
+
+    .study-projects {
+        font-size: 0.9rem;
+    }
+
+    .presentation h2 {
+        margin-left: 0px;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .photo {
+        margin-top: 0px;
+    }
+
+    .photo img {
+        width: 40%;
+    }
+
+    .intro {
+        padding-top: 0%;
+        width: 60%;
+    }
+
+    /*.collapse-section {float: right;padding-left: 0%;padding-top: 8%;}*/
+    .about {
+        /*padding: 2.0rem 0px 2.5rem;*/
+        padding: 0;
+    }
+
+    .services {
+        padding: 4.5rem 0 4.5rem;
+    }
+
+    .can_do {
+        display: none;
+    }
+
+    .title-services {
+        top:
+            /* 0px*/
+            48px;
+        color: #8c62c3;
+    }
+
+    .fact-mail {
+        font-size: 1rem;
+    }
+
+    .section-contact-information {
+        padding: 16% 0 0 !important;
+    }
+
+    .contact h2 {
+        font-size: 3rem
+            /*4rem*/
+        ;
+    }
+
+    .contact-fact {
+        margin-top: 0px;
+    }
+
+    .svg-image {
+        display: none;
+    }
+
+
+    /*more projects*/
+    .card-p.small {
+        width: 100%;
+    }
+
+
+    .collapse-section {
+        width: 37%;
+    }
+
+    .p-img-phone {
+        border-radius: 30px;
+        width: 65%;
+    }
+
+
+    .logo-fix {
+        left: 3rem;
+    }
+
+
+
+    /*codigo de css de projects en inicio*/
+    .card-col {
+        height: 60vh;
+        margin-bottom: 40px;
+        padding-bottom: 0px;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+    .languages {
+        padding-left: 0.3rem;
+        /*vertical-align: text-top;*/
+        font-size: 1rem;
+        line-height: 8px;
+        height: 8px;
+        display: inline;
+    }
+
+    .nav-logo {
+        width: 30px;
+        /* height: 32px; */
+        top: 9px;
+        line-height: 13px;
+        /*margin-left: -10px;*/
+        margin-left: -21px;
+    }
+
+    .nav-toggle {
+        height: 3.5rem;
+        width: 1.6rem;
+    }
+
+    .nav-toggle .nav-toggle-bar {
+        height: 0.29rem;
+    }
+
+    .nav-toggle:before {
+        top: 1.18rem;
+    }
+
+    .nav-toggle .nav-toggle-bar,
+    .nav-toggle .nav-toggle-bar::after,
+    .nav-toggle .nav-toggle-bar::before {
+        height: 0.29rem;
+    }
+
+    .name-lettering {
+        width: 90%;
+    }
+
+    .links-header {
+        width: 70%;
+    }
+
+    .scrolld-header {
+        bottom: 10%;
+        height: 15%;
+    }
+
+    .scrolld-header svg {
+        position: relative;
+        top: 0rem;
+    }
+
+    .scroll-d {
+        display: block;
+    }
+
+    .projects h2 span {
+        left: -16px;
+    }
+
+    .presentation h2 {
+        margin-left: 0px;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .about {
+        padding: 0rem 0px 2rem;
+    }
+
+    .photo img {
+        width: 40%;
+    }
+
+    .intro {
+        padding-top: 0%;
+    }
+
+    .collapse-section {
+        float: right;
+        padding-left: 0%;
+        padding-top: 1%;
+    }
+
+    .can_do {
+        display: none;
+    }
+
+    .services {
+        padding: 2.5rem 0 3.5rem;
+    }
+
+    .title-services {
+        top: 15px;
+        color: #8c62c3;
+    }
+
+    .section-contact-information {
+        padding: 18% 0 0 !important;
+    }
+
+    /*more projects*/
+
+    .description-p {
+        position: relative;
+        top: 1.75rem;
+    }
+
+    /*.card-col span{top: 7.50rem;}*/
+    .link-p {
+        right: 11px;
+        bottom: 12px
+    }
+
+    .hoverp .link-p {
+        transform: translateX(-1rem);
+    }
+
+    .p-img-phone {
+        border-radius: 20px;
+        width: 59%;
+    }
+
+    .btn-about-cv {
+        width: 60%;
+    }
+
+    .logo-fix {
+        left: 2.3rem;
+    }
+
+    .pageproject-date {
+        margin: 0%;
+    }
+
+}
+
+@media screen and (max-width: 678px) {
+    .intro {
+        width: 100%;
+    }
+
+    .collapse-section {
+        width: 44%;
+        float: left;
+        padding-top: 6%;
+        padding-left: 0;
+    }
+
+    .p-img-phone {
+        width: 75%;
+    }
+
+    .bg-project .nav-toggle {
+        right: 1rem;
+    }
+}
+
+/* me qude aui*/
+@media screen and (max-width: 600px) {
+
+    .contact {
+        padding: 1.2rem 0px 2rem;
+    }
+
+    /*.contact h2 {font-size: 5rem;}*/
+    .contact h2 {
+        font-size: 4.3rem;
+    }
+
+    .section {
+        padding: 2% 2% 4% !important;
+    }
+
+    .svg-image {
+        display: inline-block;
+    }
+
+    .contact-fact {
+        margin-top: -10px;
+    }
+
+    .section-contact-information {
+        padding: 1% 0 4% !important;
+    }
+
+    .text-small {
+        font-size: 12px !important;
+    }
+
+    .text-small a {
+        height: 22px;
+        min-width: 82px;
+    }
+
+    .services {
+        padding: 4rem 0;
+    }
+
+    .service-one,
+    .service-two,
+    .service-three {
+        text-align: center;
+        padding: 2rem 0 2rem;
+    }
+
+    .services img {
+        text-align: center;
+        width: 55%;
+    }
+
+    .content-text {
+        padding: 0 4rem;
+    }
+
+    .services h3 {
+        padding: 0%;
+        text-align: center !important;
+    }
+
+    .services .content-text {
+        text-align: center !important;
+    }
+
+    .title-services {
+        top: 18px;
+        color: #8c62c3;
+    }
+
+    .can_do {
+        display: none;
+    }
+
+    .presentation h2 {
+        display: inline-block;
+        margin-left: 0px;
+        text-align: left;
+    }
+
+    .photo img {
+        width: 50%;
+    }
+
+    .intro {
+        padding-top: 0%;
+    }
+
+    .presentation h2 {
+        margin-bottom: 0px;
+    }
+
+    .collapse-section {
+        float: none;
+        padding-left: 0%;
+        padding-top: 10%;
+        width: 100%;
+    }
+
+    /*.languages{padding-left: 0.3rem; vertical-align: super;font-size: 1.1rem;}
+  .nav-logo{ width: 32px; height: 32px; top: 6px;}*/
+    .languages {
+        padding-left: 0.3rem;
+        font-size: 1.08rem;
+        vertical-align: sub !important;
+    }
+
+    .nav-logo {
+        width: 30px;
+        height: 28px;
+        top: 12px;
+        /*margin-left: -10px;*/
+        margin-left: 0px;
+    }
+
+    .nav-toggle {
+        height: 3.5rem;
+        width: 1.6rem;
+    }
+
+    .nav-toggle .nav-toggle-bar {
+        height: 0.29rem;
+    }
+
+    .nav-toggle:before {
+        top: 1.18rem;
+    }
+
+    .nav-toggle .nav-toggle-bar,
+    .nav-toggle .nav-toggle-bar::after,
+    .nav-toggle .nav-toggle-bar::before {
+        height: 0.29rem;
+    }
+
+    .offcanvas .content .logo {
+        width: 7.5%;
+    }
+
+    .name-lettering {
+        width: 98%;
+    }
+
+    .hero-text h4 {
+        font-size: 1.35rem;
+    }
+
+    .links-header .link-left {
+        width: 100%;
+    }
+
+    .scrolld-header {
+        bottom: 12%;
+        height: 15%;
+    }
+
+    .scrolld-header svg {
+        position: relative;
+        top: 0rem;
+    }
+
+    .scroll-d {
+        display: block;
+    }
+
+    .projects {
+        padding: 0.5rem 0px 0rem;
+    }
+
+    .projects h2 span {
+        left: 0px;
+        position: relative;
+        top: 0px;
+        line-height: 0.9;
+    }
+
+    .description-projects {
+        padding-bottom: 3%;
+    }
+
+    .more a {
+        float: left;
+        margin-top: -30px;
+    }
+
+    .bcodedemo-small {
+        display: block;
+    }
+
+    .p-img-phone {
+        width: 53%;
+    }
+
+    .logo-fix {
+        left: 0.6rem;
+    }
+
+}
+
+
+@media screen and (max-width: 520px) {
+
+    .offcanvas .content .logo {
+        width: 9%;
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+
+    .name-lettering {
+        width: 95%;
+    }
+
+    .hero-text h4 {
+        font-size: 1.45rem;
+    }
+
+    .scrolld-header {
+        bottom: 12%;
+        height: 15%;
+    }
+
+    .scrolld-header svg {
+        position: relative;
+        top: 0rem;
+    }
+
+    .scroll-d {
+        display: block;
+    }
+
+    .more a {
+        float: left;
+        margin-top: -30px;
+    }
+
+    .projects h2 {
+        font-size: 4.2rem;
+        /*width: 100%;*/
+    }
+
+    .projects h2 span {
+        left: 0px;
+        position: relative;
+        top: 0px;
+        line-height: 0.9;
+    }
+
+    .description-projects {
+        padding-bottom: 5%;
+    }
+
+    .description-projects p {
+        font-size: 16px;
+    }
+
+    .description-p h2 {
+        font-size: 2.5rem;
+    }
+
+    .description-p i {
+        margin: 1% 0;
+        font-size: 3.5rem
+            /*3rem*/
+        ;
+    }
+
+    .description-p {
+        left: 1.10rem;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    .collapse-section {
+        width: 100%;
+    }
+
+    .photo {
+        margin-top: 0px;
+    }
+
+    .section {
+        padding: 0% 2% 4% !important;
+    }
+
+    .contact h2 {
+        font-size: 4rem;
+    }
+
+    .logo-fix {
+        left: 0.4rem;
+    }
+
+    .bg-project .nav-toggle {
+        right: 0.8rem;
+    }
+
+    /*codigo de css de projects en inicio*/
+    .container-p {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+
+    .offcanvas .content .logo {
+        width: 11%;
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+
+    .languages {
+        padding-left: 0.5rem;
+        font-size: 1.0rem;
+    }
+
+    .offcanvas .content {
+        padding: 2rem;
+    }
+
+    .nav-toggle:before {
+        top: 1.3rem;
+    }
+
+    .offcanvas .content ul li a {
+        font-size: 2.4rem;
+    }
+
+    .offcanvas .content .logo {
+        width: 10%;
+        margin-top: -9px;
+        margin-left: 8px;
+    }
+
+    .offcanvas .content ul {
+        margin: 0;
+    }
+
+    .nav-logo {
+        top: 11px;
+        left: 4px;
+        width: 28px;
+    }
+
+    .links-header {
+        width: 45%;
+    }
+
+    .scrolld-header {
+        bottom: 20%;
+        height: 15%;
+    }
+
+    .scrolld-header svg {
+        position: relative;
+        top: 0rem;
+    }
+
+    .scroll-d {
+        display: block;
+    }
+
+    .name-lettering {
+        width: 90%;
+    }
+
+    .hero-text h4 {
+        font-size: 1.35rem;
+    }
+
+    .more a {
+        float: left;
+        margin-top: -14px;
+    }
+
+    .projects {
+        padding: 2rem 0px 0rem;
+    }
+
+    .projects h2 span {
+        left: 0px;
+        position: relative;
+        top: 0px;
+        line-height: 0.9;
+    }
+
+    .bcodedemo-small {
+        padding-top: 7%;
+    }
+
+    .presentation h2 {
+        font-size: 4rem;
+        text-align: left;
+    }
+
+    .photo img {
+        width: 70%;
+    }
+
+    .contact h2 {
+        font-size: 3.2rem;
+    }
+
+    .description-p {
+        font-size: 2rem;
+    }
+
+    .shape {
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
+        transition: none;
+    }
+
+    .shape:hover {
+        fill: #fdfdfd00;
+    }
+
+    .logo-fix {
+        left: 0rem;
+    }
+
+    .bg-project .nav-toggle {
+        right: 0.6rem;
+    }
+
+    .title-small {
+        font-size: 2.2rem;
+    }
+
+    .project-contact h2 {
+        font-size: 3.4rem;
+    }
+
+    .container-p {
+        max-width: 100%;
+    }
+
+    .project-contact {
+        margin-top: 0;
+    }
+
+
+    .section-contact-information {
+        padding: 3rem 0px !important;
+    }
+
+    .content-text {
+        padding: 0 3rem;
+    }
+
+    .about-bg {
+        padding: 40px 2px;
+    }
+
+    .tags-projects div {
+        margin-bottom: 5px;
+        font-size: 13px;
+        padding: 2% 3%;
+        margin-right: 8px;
+    }
+
+    .tags-projects {
+        height: auto;
+        overflow: inherit;
+        display: table;
+    }
+
+    .hoverp .description-p {
+        transform: translateX(0rem);
+    }
+
+    .description-p {
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 2.6rem;
+        padding: 4%;
+    }
+
+    .description-p i {
+        vertical-align: middle;
+    }
+
+    .landing-embajadoresdemarca {
+        background-position: left bottom;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+
+    .photo {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        padding-top: 1rem;
+    }
+
+    .bg-purple {
+        background-position: left;
+        background: #31274c;
+    }
+
+    .tags-projects div {
+        margin-bottom: 5px;
+        font-size: 13px;
+        padding: 2% 3%;
+        margin-right: 8px;
+    }
+
+    .tags-projects {
+        height: auto;
+        overflow: inherit;
+        display: table;
+    }
+
+    .hoverp .description-p {
+        transform: translateX(0rem);
+    }
+
+    .description-p {
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 2.6rem;
+        padding: 4%;
+        height: 100%;
+    }
+
+    .description-p i {
+        display: none;
+    }
+
+    .landing-embajadoresdemarca {
+        background-position: left bottom;
+    }
+
+    .pageproject-date {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .hoverp .pageproject-date {
+        transform: translateX(0.3rem);
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .hero {
+        background-position: right -286px top 0;
+    }
+
+    .languages {
+        padding-left: 0.5rem;
+        font-size: 1.0rem;
+    }
+
+    .nav-logo {
+        top: 12px;
+        left: 4px;
+        width: 28px;
+    }
+
+    .more-projects a {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 3.5% 0%;
+    }
+
+    .projects {
+        padding: 2rem 0px 0rem;
+    }
+
+    .projects h2 {
+        font-size: 3.5rem;
+    }
+
+    .projects h2 span {
+        position: relative;
+        left: 0;
+        top: 0;
+        line-height: 0.9;
+        font-size: 2.5rem
+    }
+
+    .description-projects {
+        padding-bottom: 10%;
+    }
+
+    .description-projects p {
+        font-size: 16px;
+    }
+
+    .bcodedemo-small {
+        text-align: center;
+        padding-top: 3rem;
+    }
+
+    .photo {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .photo img {
+        width: 95%;
+    }
+
+    .border-r {
+        border-right: none;
+    }
+
+    .title-services {
+        top: 30px;
+    }
+
+    .services img {
+        width: 80%;
+    }
+
+    .services h3 {
+        font-size: 2.3rem;
+    }
+
+    .content-text {
+        font-size: 15.5px;
+    }
+
+    .contact {
+        padding: 3.2rem 0px 1.2rem;
+    }
+
+    .section {
+        padding: 0% !important;
+    }
+
+    .contact .section h2 {
+        font-size: 2.7rem;
+    }
+
+    .contact .section p {
+        /*font-size: 14.5px;line-height: 2.3rem;*/
+        font-size: 16px;
+        line-height: 1.89;
+        letter-spacing: -.004em;
+    }
+
+    .section-contact-information span {
+        width: 100%;
+    }
+
+    .svg-mail {
+        display: none;
+    }
+
+    .svg-phone {
+        display: none;
+        width: 13%;
+        padding-right: 20%;
+    }
+
+    .contact-fact,
+    .fact-mail {
+        padding-top: 8%;
+    }
+
+    .icon-social-h {
+        text-align: center;
+    }
+
+    .icon-social-h a {
+        margin: 0px 10px;
+    }
+
+    .contact .text-small {
+        font-size: 13px;
+        margin-bottom: 1.5rem !important;
+    }
+
+    .text-small a {
+        height: 23px;
+    }
+
+    .text-small a:after {
+        bottom: 2px;
+    }
+
+    .about {
+        padding: 0rem 0px 1rem;
+    }
+
+    .about h3 {
+        font-size: 2.5rem;
+        text-align: left;
+        font-weight: 500;
+    }
+
+    .presentation h2 {
+        margin-left: 0px;
+        font-size: 3.5rem;
+        text-align: left;
+    }
+
+    .intro {
+        width: 100%;
+        padding-top: 5%;
+    }
+
+    .can_do {
+        display: none;
+    }
+
+    .collapse-section {
+        width: 100%;
+    }
+
+    .service-one,
+    .service-two,
+    .service-three {
+        padding: 4rem 0 0;
+    }
+
+    /*off canvas*/
+    .nav-toggle {
+        /*top: 0.8rem;*/
+        top: 0.4rem;
+        right: 0.8rem;
+    }
+
+    .nav-toggle:before {
+        top: 1.3rem;
+    }
+
+    .name-lettering {
+        width: 100%;
+    }
+
+    .hero-text h4 {
+        font-size: 1.28rem;
+    }
+
+    .links-header {
+        width: 58%;
+    }
+
+    .links-header .link-left {
+        width: 100%;
+    }
+
+    .scrolld-header {
+        bottom: 15%;
+        height: 17%;
+    }
+
+    .scrolld-header svg {
+        /*top: 0; left: 0; right: 0;*/
+        position: relative;
+        top: 0rem;
+    }
+
+    /*nav off canvas*/
+    .offcanvas .content {
+        padding: 2rem 1rem 0rem 2rem;
+    }
+
+    .offcanvas .content .logo {
+        width: 13%;
+        margin-top: -0.8rem;
+        margin-left: 5px;
+    }
+
+    .offcanvas .content ul li a {
+        /*margin-left: 5%*/
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 2.4rem;
+    }
+
+    .bottom-info div [class*="fa"] {
+        font-size: 19px !important;
+    }
+
+    .bottom-info div {
+        line-height: 3rem;
+    }
+
+    /*more projects*/
+
+    .description-p {
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 2.6rem;
+        padding: 4%;
+    }
+
+    .description-p h2 {
+        font-size: 2rem;
+    }
+
+    .hoverp .link-p {
+        transform: translateX(-1rem);
+    }
+
+    .btn-about-cv {
+        width: 75%;
+        margin-bottom: 2rem;
+    }
+
+    .div-btn-about {
+        margin-bottom: 1.8rem;
+    }
+
+    .title-small {
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+    }
+
+    .bg-project {
+        padding: 0 0 1rem 0;
+    }
+
+    .project-contact h2 {
+        font-size: 2.8rem;
+    }
+
+    .link-p {
+        right: 10px;
+        bottom: 22px;
+    }
+
+    .top-project {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .top-project p {
+        text-align: left;
+    }
+
+    .logo-fix {
+        left: 0.8rem;
+    }
+
+    .divided {
+        margin-top: 2rem;
+        margin-bottom: 0rem;
+    }
+
+    .flat-style a {
+        margin: 0 0 1rem 0;
+    }
+
+    .content-text {
+        padding: 0 1rem;
+    }
+
+    .about-bg {
+        padding: 30px 2px;
+    }
+
+    .tags-projects div {
+        margin-bottom: 5px;
+        font-size: 13px;
+        padding: 2% 3%;
+        margin-right: 8px;
+    }
+
+    .tags-projects {
+        height: auto;
+        overflow: inherit;
+        display: inline-block;
+    }
+
+    .hoverp .description-p {
+        transform: translateX(0rem);
+    }
+
+    .description-p i {
+        display: none;
+    }
+
+    .hero-content {
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+    }
+
+    /* Ajustes para pantallas más pequeñas que 1245px */
+    @media screen and (max-width: 1245px) {
+        .hero-content {
+            top: 35%;
+            /* Ajusta la posición vertical del contenido */
+            width: 70%;
+            /* Ajusta el ancho del contenido */
+        }
+    }
+
+    /* Ajustes para pantallas más pequeñas que 1097px */
+    @media screen and (max-width: 1097px) {
+        .hero-content {
+            top: 30%;
+            /* Ajusta la posición vertical del contenido */
+            width: 60%;
+            /* Ajusta el ancho del contenido */
+        }
+    }
+
+    /* Ajustes para pantallas más pequeñas que 1020px */
+    @media screen and (max-width: 1020px) {
+        .hero-content {
+            top: 25%;
+            /* Ajusta la posición vertical del contenido */
+            width: 50%;
+            /* Ajusta el ancho del contenido */
+        }
+    }
+
+    /* Ajustes para pantallas más pequeñas que 992px */
+    @media screen and (max-width: 992px) {
+        .hero-content {
+            top: 20%;
+            /* Ajusta la posición vertical del contenido */
+            width: 40%;
+            /* Ajusta el ancho del contenido */
+        }
+    }
+
+    /* Ajustes para pantallas más pequeñas que 768px */
+    @media screen and (max-width: 768px) {
+        .hero-content {
+            top: 15%;
+            /* Ajusta la posición vertical del contenido */
+            width: 30%;
+            /* Ajusta el ancho del contenido */
+        }
+    }
+
+    /* Ajustes para pantallas más pequeñas que 600px */
+    @media screen and (max-width: 600px) {
+        .hero-content {
+            top: 10%;
+            /* Ajusta la posición vertical del contenido */
+            width: 20%;
+            /* Ajusta el ancho del contenido */
+        }
+    }
+
+    /* Ajustes para pantallas más grandes que 1245px */
+    @media screen and (min-width: 1245px) {
+        .hero-content {
+            top: 45%;
+            /* Ajusta la posición vertical del contenido */
+            width: 85%;
+            /* Ajusta el ancho del contenido */
+        }
+    }
+    /* Ajustes para pantallas más grandes que 1366px */
+    @media screen and (min-width: 1366px) {
+        .hero-content {
+            top: 50%;
+            /* Ajusta la posición vertical del contenido */
+            width: 90%;
+            /* Ajusta el ancho del contenido */
+        }
+    }
+    /* Ajustes para pantallas más grandes que 1920px */
+    @media screen and (min-width: 1920px) {
+        .hero-content {
+            top: 55%;
+            /* Ajusta la posición vertical del contenido */
+            width: 95%;
+            /* Ajusta el ancho del contenido */
+        }
+    }
+    /* Ajustes para pantallas más grandes que 1366px */
+    @media screen and (min-width: 1366px) {
+        .intro {
+            width: 55%;
+            /* Ajusta el ancho del elemento intro */
+        }
+
+        .description-phone {
+            margin: 6rem 0 0 0;
+            /* Ajusta el margen del elemento description-phone */
+            width: 60%;
+            /* Ajusta el ancho del elemento description-phone */
+        }
+
+        .description-projects {
+            padding: 2rem 2rem;
+            /* Ajusta el padding del elemento description-projects */
+            margin: 2rem 0 2rem;
+            /* Ajusta el margen del elemento description-projects */
+        }
+
+        .logo-fix {
+            left: 4rem;
+            /* Ajusta la posición del elemento logo-fix */
+        }
+
+        .description-p h2 {
+            font-size: 3.5rem;
+            /* Ajusta el tamaño de fuente del elemento description-p h2 */
+        }
+
+        .description-p i {
+            font-size: 5rem;
+            /* Ajusta el tamaño de fuente del elemento description-p i */
+            margin: 2% 0;
+            /* Ajusta el margen del elemento description-p i */
+        }
+    }
+
+    /* Ajustes para pantallas más grandes que 1920px */
+    @media screen and (min-width: 1920px) {
+        .intro {
+            width: 60%;
+            /* Ajusta el ancho del elemento intro */
+        }
+
+        .description-phone {
+            margin: 7rem 0 0 0;
+            /* Ajusta el margen del elemento description-phone */
+            width: 55%;
+            /* Ajusta el ancho del elemento description-phone */
+        }
+
+        .description-projects {
+            padding: 2.5rem 2.5rem;
+            /* Ajusta el padding del elemento description-projects */
+            margin: 2.5rem 0 2.5rem;
+            /* Ajusta el margen del elemento description-projects */
+        }
+
+        .logo-fix {
+            left: 5rem;
+            /* Ajusta la posición del elemento logo-fix */
+        }
+
+        .description-p h2 {
+            font-size: 4rem;
+            /* Ajusta el tamaño de fuente del elemento description-p h2 */
+        }
+
+        .description-p i {
+            font-size: 6rem;
+            /* Ajusta el tamaño de fuente del elemento description-p i */
+            margin: 2% 0;
+            /* Ajusta el margen del elemento description-p i */
+        }
+    }
+
+}
