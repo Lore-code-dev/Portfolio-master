@@ -2168,13 +2168,13 @@ span>img {
 }
 
 .bg-icon {
-	background-image: url(../img/project-icon4.jpg);
+	background-image: url(../img/1.png);
 	background-size: cover;
 }
 
 .landing-b2 {
 	background-image:
-		url(../img/landing-b2.jpg);
+		url(../img/2.png);
 	background-size: cover;
 	background-position: top;
 }
