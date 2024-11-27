@@ -2163,18 +2163,18 @@ span>img {
 }
 
 .landing-v {
-	background-image: url(../img/2.png);
+	background-image: url(../img/project-1-f.jpg);
 	background-size: cover;
 }
 
 .bg-icon {
-	background-image: url(../img/1.png);
+	background-image: url(../img/project-icon4.jpg);
 	background-size: cover;
 }
 
 .landing-b2 {
 	background-image:
-		url(../img/2.png);
+		url(../img/landing-b2.jpg);
 	background-size: cover;
 	background-position: top;
 }
