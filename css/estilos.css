@@ -2163,12 +2163,12 @@ span>img {
 }
 
 .landing-v {
-	background-image: url(../img/project-1-f.jpg);
+	background-image: url(../img/landing-b2.jpg);
 	background-size: cover;
 }
 
 .bg-icon {
-	background-image: url(../img/project-icon4.jpg);
+	background-image: url(../img/landing-b2.jpg);
 	background-size: cover;
 }
 
@@ -2181,36 +2181,36 @@ span>img {
 
 .landing-embajadoresdemarca {
 	background-image:
-		url(../img/landing-embajadoresdemarca-2.jpg);
+		url(../img/landing-b2.jpg);
 	background-size: cover;
 }
 
 .landing-plantillaweb {
 	background-image:
-		url(../img/plantilla-upn.jpg);
+		url(../img/landing-b2.jpg);
 	background-size: cover;
 }
 
 .landing-emb {
-	background-image: url(../img/landing-e.png);
+	background-image: url(../img/landing-b2.png);
 	background-size: cover;
 	background-position: left top;
 }
 
 .project-design1 {
-	background-image: url(../img/project-design1.jpg);
+	background-image: url(../img/landing-b2.jpg);
 	background-size: cover;
 
 }
 
 .web-d-dance-school {
-	background-image: url(../img/web-design-danza4.jpg);
+	background-image: url(../img/landing-b2.jpg);
 	background-size: cover;
 	background-position: top center;
 }
 
 .project-design2 {
-	background-image: url(../img/project-design2.jpg);
+	background-image: url(../img/landing-b2.jpg);
 	background-size: cover;
 }
 
