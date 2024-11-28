@@ -388,7 +388,7 @@
         top:
             /* 0px*/
             48px;
-        color: #8c62c3;
+        color: #000;
     }
 
     .fact-mail {
@@ -543,7 +543,7 @@
 
     .title-services {
         top: 15px;
-        color: #8c62c3;
+        color: #000;
     }
 
     .section-contact-information {
@@ -675,7 +675,7 @@
 
     .title-services {
         top: 18px;
-        color: #8c62c3;
+        color: #000;
     }
 
     .can_do {
