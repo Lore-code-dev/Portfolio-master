@@ -382,6 +382,7 @@ h4 {
 
 /* Sección Hero */
 .hero {
+	
 	background-image: url('../img/ABRAXXAS-copia.png');
 	background-size: cover;
 	position: relative;
@@ -393,7 +394,8 @@ h4 {
 }
 
 .hero-wrapper {
-	background: #f7f7f700;
+	/* background: #f7f7f700; */
+    background-image: url('../img/ABRAXXAS-copia.png');
 	opacity: .90;
 	position: absolute;
 	top: 0;
