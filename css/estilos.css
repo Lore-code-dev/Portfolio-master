@@ -389,10 +389,7 @@ h4 {
 	background-position: right 0px top 31%;
 	background-repeat: no-repeat;
 	z-index: 1;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+
 }
 
 .hero-wrapper {
@@ -408,12 +405,8 @@ h4 {
 
 .hero-content {
 	text-align: center;
-	color: #fff;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 80%;
+	
+
 }
 
 .hero-text {
@@ -426,11 +419,13 @@ h4 {
 	margin: 0 auto;
 	padding-top: 6rem;
 	position: relative;
-	width: 45%;
+	width: 55%;
 	display: block;
+	-webkit-animation: fadeIn 4s, slideInFromBottom 2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+	-moz-animation: fadeIn 4s, slideInFromBottom 2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+	-ms-animation: fadeIn 4s, slideInFromBottom 2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+	-o-animation: fadeIn 4s, slideInFromBottom 2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	animation: fadeIn 4s, slideInFromBottom 2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
-	max-width: 100%;
-	height: auto;
 }
 
 .hero-text h4 {
@@ -465,10 +460,11 @@ h4 {
 
 .links-header .link-left,
 .links-header .link-right {
+	display: inline-block;
 	width: 50%;
 	margin-left: auto;
-	float: left;
 	color: white;
+	
 }
 
 .links-header a {
@@ -708,7 +704,7 @@ h4 {
 }
 
 .hero-project {
-	background: linear-gradient(0deg, #ffffff 0%, #8c62c3 100%);
+	background: linear-gradient(0deg, #ffffff 0%, #000);
 	background-size: cover;
 	width: 100%;
 	height: 100%;
@@ -728,7 +724,7 @@ h4 {
 .projects h2 span {
 	display: block;
 	font-size: 3.5rem;
-	color: #e7e7e5;
+	color: #000;
 	line-height: 0.8;
 	font-weight: 500;
 	position: absolute;
@@ -819,6 +815,7 @@ h4 {
 	margin: 5rem 0 0 0;
 	width: 62%;
 	float: left;
+	
 }
 
 .img-projects {
