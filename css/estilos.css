@@ -384,7 +384,7 @@ h4 {
 .hero {
 	
 	background-image: url('../img/ABRAXXAS-copia.png');
-	background-size: cover;
+	background-size: 100% 100%;
 	position: relative;
 	background-attachment: fixed;
 	background-position: right 0px top 31%;
@@ -396,6 +396,8 @@ h4 {
 .hero-wrapper {
 	/* background: #f7f7f700; */
     background-image: url('../img/ABRAXXAS-copia.png');
+	background-size:  100% 100%;
+	position: center;
 	opacity: .90;
 	position: absolute;
 	top: 0;
@@ -407,8 +409,6 @@ h4 {
 
 .hero-content {
 	text-align: center;
-	
-
 }
 
 .hero-text {
