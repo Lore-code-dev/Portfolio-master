@@ -2991,6 +2991,26 @@ ul.staggered-list li {
   }
 }
 
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+
+	
+	
+
+  .hoverp .tags-projects .tag-white {
+    color: black; /* Cambiar el color de las etiquetas a negro */
+  }
+
+  .hoverp .h2 span projects .white-text {
+    color: black; /* Cambiar el color del título a negro */
+  }
+
+  .hoverp a i.material-icons {
+    color: black; /* Cambiar el color del ícono a negro */
+  }
+}
+  
+
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;

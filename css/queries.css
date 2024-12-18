@@ -781,15 +781,18 @@
         position: relative;
         top: 0px;
         line-height: 0.9;
+       
     }
 
     .description-projects {
         padding-bottom: 3%;
+        
     }
 
     .more a {
         float: left;
         margin-top: -30px;
+        
     }
 
     .bcodedemo-small {
@@ -1109,7 +1112,7 @@
 
     .bg-purple {
         background-position: left;
-        background: #31274c;
+        background: #000;
     }
 
     .tags-projects div {
@@ -1551,16 +1554,25 @@
             width: 30%;
             /* Ajusta el ancho del contenido */
         }
+
+         
     }
 
-    /* Ajustes para pantallas más pequeñas que 600px */
-    @media screen and (max-width: 600px) {
-        .hero-content {
-            top: 10%;
-            /* Ajusta la posición vertical del contenido */
-            width: 20%;
-            /* Ajusta el ancho del contenido */
+        /* Ajustes para pantallas más pequeñas que 600px */
+        @media screen and (max-width: 600px) {
+            .hero-content {
+                top: 10%;
+                /* Ajusta la posición vertical del contenido */
+                width: 20%;
+                /* Ajusta el ancho del contenido */
+            }
         }
+
+
+
+
+
+
     }
 
     /* Ajustes para pantallas más grandes que 1245px */
@@ -1667,5 +1679,3 @@
             /* Ajusta el margen del elemento description-p i */
         }
     }
-
-}

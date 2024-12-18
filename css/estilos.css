@@ -2368,6 +2368,26 @@ span>img {
 	visibility: visible;
 }
 
+
+.tags-projects .tag-white {
+    color: black; 
+}
+
+.hoverp a .white-text {
+	color: black !important; /* Forzamos el cambio a negro */
+}
+
+.hoverp a i.material-icons {
+	color: black !important; /* Forzamos el cambio a negro */
+}
+
+.hoverp .description-p .white-text,
+.hoverp .projects h2, 
+.hoverp .projects h2 span {
+  color: black !important; /* Forzamos el cambio a negro */
+}
+
+
 .link-p {
 	visibility: hidden;
 	opacity: 0;
@@ -2584,3 +2604,7 @@ span>img {
 .uptooltip:hover {
 	transform: translateY(-6px);
 }
+
+
+  
+  
