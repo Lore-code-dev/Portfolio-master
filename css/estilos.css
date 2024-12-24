@@ -64,14 +64,14 @@ body {
 main {
 	flex: 1 0 auto;
 	z-index: 0;
-	
+
 }
 
 header {
 	height: 100vh;
 	margin: 0;
 	min-height: 637px;
-	
+
 }
 
 footer {
@@ -151,13 +151,15 @@ h4 {
 }
 
 .p-bottom {
-	text-align: center; 
+	text-align: center;
 	padding-bottom: 2rem;
 }
 
 .p-bottom h2 {
-    font-size: 1rem; /* Ajusta el tamaño de fuente del título */
-    color: #333; /* Ajusta el color del texto */
+	font-size: 1rem;
+	/* Ajusta el tamaño de fuente del título */
+	color: #333;
+	/* Ajusta el color del texto */
 }
 
 .paddingTop15 {
@@ -382,7 +384,7 @@ h4 {
 
 /* Sección Hero */
 .hero {
-	
+
 	background-image: url('../img/ABRAXXAS-copia.png');
 	background-size: 100% 100%;
 	position: relative;
@@ -395,8 +397,8 @@ h4 {
 
 .hero-wrapper {
 	/* background: #f7f7f700; */
-    background-image: url('../img/ABRAXXAS-copia.png');
-	background-size:  100% 100%;
+	background-image: url('../img/');
+	background-size: 100% 100%;
 	position: center;
 	opacity: .90;
 	position: absolute;
@@ -421,7 +423,7 @@ h4 {
 	margin: 0 auto;
 	padding-top: 6rem;
 	position: relative;
-	width: 55%;
+	width: 35%;
 	display: block;
 	-webkit-animation: fadeIn 4s, slideInFromBottom 2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	-moz-animation: fadeIn 4s, slideInFromBottom 2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
@@ -444,7 +446,7 @@ h4 {
 	box-shadow: none;
 	padding: 0 1.2rem;
 	text-transform: capitalize;
-	box-shadow: 0 0 0 0px #490b01 inset;
+	box-shadow: 0 0 0 0px #000 inset;
 	-webkit-transition: 0.15s ease-in;
 	-moz-transition: 0.15s ease-in;
 	transition: 0.15s ease-in;
@@ -466,7 +468,7 @@ h4 {
 	width: 50%;
 	margin-left: auto;
 	color: white;
-	
+
 }
 
 .links-header a {
@@ -817,7 +819,7 @@ h4 {
 	margin: 5rem 0 0 0;
 	width: 62%;
 	float: left;
-	
+
 }
 
 .img-projects {
@@ -836,8 +838,8 @@ h4 {
 
 .projects a.btn {
 	background-color: transparent;
-	color: #660c0c;
-	border: 1px solid #660c0c;
+	color: #000;
+	border: 1px solid #000;
 	font-weight: 700;
 	height: auto;
 	margin-bottom: 10px;
@@ -873,7 +875,7 @@ h4 {
 
 .projects a.btn:hover::after {
 	width: 100%;
-	background-color: #660c0c;
+	background-color: #000;
 }
 
 .projects a.btn i {
@@ -1115,7 +1117,7 @@ h4 {
 }
 
 .bg-purple {
-	background-image: url(../img/fondo.png);
+	background-image: url(../img/jb2.jpeg);
 	background-size: cover;
 	position: relative;
 	background-attachment: fixed;
@@ -1384,7 +1386,7 @@ div.panel {
 .icon-social-h a {
 	display: inline-block;
 	border-radius: 50%;
-	background: #66110a;
+	background: #444;
 	height: 38px;
 	width: 38px;
 	line-height: 38px;
@@ -1514,7 +1516,7 @@ span>img {
 	padding: 0 1rem;
 	font-size: 13px !important;
 	opacity: 0;
-	background-color: #66110a;
+	background-color: #000;
 	-webkit-transform: translate(0px, 65px);
 	-ms-transform: translate(0px, 65px);
 	transform: translate(0px, 65px);
@@ -1523,14 +1525,14 @@ span>img {
 }
 
 .buttonDownload:hover {
-	box-shadow: 0 0 0 30px #66110a inset;
+	box-shadow: 0 0 0 30px #000 inset;
 }
 
 .buttonDownload:active {
 	-webkit-transition: 0.5s ease;
 	-moz-transition: 0.5s ease;
 	transition: 0.5s ease;
-	box-shadow: 0 0 0 30px #66110a inset;
+	box-shadow: 0 0 0 30px #000 inset;
 }
 
 .up-button {
@@ -1553,7 +1555,7 @@ span>img {
 }
 
 .footer-text i {
-	color: #66110a;
+	color: #000;
 }
 
 .up {
@@ -1761,9 +1763,9 @@ span>img {
 }
 
 .btn-g:hover {
-	box-shadow: 0 0 0 30px #66110a inset;
-	border-color: #66211e;
-	color: #fff;
+	box-shadow: 0 0 0 30px #444 inset;
+	border-color: #444;
+	color: #444;
 }
 
 .border-g {
@@ -2370,21 +2372,24 @@ span>img {
 
 
 .tags-projects .tag-white {
-    color: black; 
+	color: #FFF;
 }
 
 .hoverp a .white-text {
-	color: black !important; /* Forzamos el cambio a negro */
+	color: #FFF !important;
+	/* Forzamos el cambio a negro */
 }
 
 .hoverp a i.material-icons {
-	color: black !important; /* Forzamos el cambio a negro */
+	color: #FFF !important;
+	/* Forzamos el cambio a negro */
 }
 
 .hoverp .description-p .white-text,
-.hoverp .projects h2, 
+.hoverp .projects h2,
 .hoverp .projects h2 span {
-  color: black !important; /* Forzamos el cambio a negro */
+	color: #FFF !important;
+	/* Forzamos el cambio a negro */
 }
 
 
@@ -2484,7 +2489,7 @@ span>img {
 }
 
 .bg-project-image {
-	background-image: url(../img/ABRAXXAS-copia.png);
+	background-image: url();
 	background-size: cover;
 	position: relative;
 	background-attachment: fixed;
@@ -2605,6 +2610,55 @@ span>img {
 	transform: translateY(-6px);
 }
 
+h5 {
+    display: center;
+    flex-wrap: wrap;
+  }
+
+  h5 .letter {
+    opacity: 0;
+    animation: fadeInUp 0.5s forwards;
+  }
+
+  h5 .letter:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+
+  h5 .letter:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+
+  h5 .letter:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+
+  h5 .letter:nth-child(4) {
+    animation-delay: 0.4s;
+  }
+
+  h5 .letter:nth-child(5) {
+    animation-delay: 0.5s;
+  }
+
+  h5 .letter:nth-child(6) {
+    animation-delay: 0.6s;
+  }
+
+  /* Agrega más para cada letra según el caso */
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+ 
 
   
+
   

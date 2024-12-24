@@ -8485,3 +8485,11 @@ form p:last-child {
     }
   }
 }
+
+@media (max-width: 768px) {
+  .photo-container {
+    flex: none; /* Evita restricciones de tamaño */
+    max-width: 200px; /* Imagen un poco más pequeña en móviles */
+    margin: 0 auto; /* Centra la imagen */
+  }
+}

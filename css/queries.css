@@ -234,7 +234,7 @@
     }
 
     button.accordion span {
-        background-color: #58101e;
+        background-color: #444;
         color: #fff;
     }
 
@@ -781,18 +781,18 @@
         position: relative;
         top: 0px;
         line-height: 0.9;
-       
+
     }
 
     .description-projects {
         padding-bottom: 3%;
-        
+
     }
 
     .more a {
         float: left;
         margin-top: -30px;
-        
+
     }
 
     .bcodedemo-small {
@@ -1506,102 +1506,8 @@
         width: 80%;
     }
 
-    /* Ajustes para pantallas más pequeñas que 1245px */
-    @media screen and (max-width: 1245px) {
-        .hero-content {
-            top: 35%;
-            /* Ajusta la posición vertical del contenido */
-            width: 70%;
-            /* Ajusta el ancho del contenido */
-        }
-    }
-
-    /* Ajustes para pantallas más pequeñas que 1097px */
-    @media screen and (max-width: 1097px) {
-        .hero-content {
-            top: 30%;
-            /* Ajusta la posición vertical del contenido */
-            width: 60%;
-            /* Ajusta el ancho del contenido */
-        }
-    }
-
-    /* Ajustes para pantallas más pequeñas que 1020px */
-    @media screen and (max-width: 1020px) {
-        .hero-content {
-            top: 25%;
-            /* Ajusta la posición vertical del contenido */
-            width: 50%;
-            /* Ajusta el ancho del contenido */
-        }
-    }
-
-    /* Ajustes para pantallas más pequeñas que 992px */
-    @media screen and (max-width: 992px) {
-        .hero-content {
-            top: 20%;
-            /* Ajusta la posición vertical del contenido */
-            width: 40%;
-            /* Ajusta el ancho del contenido */
-        }
-    }
-
-    /* Ajustes para pantallas más pequeñas que 768px */
-    @media screen and (max-width: 768px) {
-        .hero-content {
-            top: 15%;
-            /* Ajusta la posición vertical del contenido */
-            width: 30%;
-            /* Ajusta el ancho del contenido */
-        }
-
-         
-    }
-
-        /* Ajustes para pantallas más pequeñas que 600px */
-        @media screen and (max-width: 600px) {
-            .hero-content {
-                top: 10%;
-                /* Ajusta la posición vertical del contenido */
-                width: 20%;
-                /* Ajusta el ancho del contenido */
-            }
-        }
 
 
-
-
-
-
-    }
-
-    /* Ajustes para pantallas más grandes que 1245px */
-    @media screen and (min-width: 1245px) {
-        .hero-content {
-            top: 45%;
-            /* Ajusta la posición vertical del contenido */
-            width: 85%;
-            /* Ajusta el ancho del contenido */
-        }
-    }
-    /* Ajustes para pantallas más grandes que 1366px */
-    @media screen and (min-width: 1366px) {
-        .hero-content {
-            top: 50%;
-            /* Ajusta la posición vertical del contenido */
-            width: 90%;
-            /* Ajusta el ancho del contenido */
-        }
-    }
-    /* Ajustes para pantallas más grandes que 1920px */
-    @media screen and (min-width: 1920px) {
-        .hero-content {
-            top: 55%;
-            /* Ajusta la posición vertical del contenido */
-            width: 95%;
-            /* Ajusta el ancho del contenido */
-        }
-    }
     /* Ajustes para pantallas más grandes que 1366px */
     @media screen and (min-width: 1366px) {
         .intro {
@@ -1679,3 +1585,6 @@
             /* Ajusta el margen del elemento description-p i */
         }
     }
+
+
+}
